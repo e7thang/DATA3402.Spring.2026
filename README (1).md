@@ -139,7 +139,8 @@ R^2 score
 Validation set used for model assessment
 
 ### Data Visualization
-<img width="552" height="433" alt="image" src="https://github.com/user-attachments/assets/10604579-fa76-45a2-a512-961edc2b6187" />
+<img width="571" height="453" alt="image" src="https://github.com/user-attachments/assets/bfe89826-ca3a-45c1-9132-4e55e0897432" />
+<img width="571" height="453" alt="image" src="https://github.com/user-attachments/assets/3768316a-12de-4b7a-abe6-d2551b104403" />
 
 | Dataset        | RMSE | R² Score |
 | -------------- | ---- | -------- |
