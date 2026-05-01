@@ -11,26 +11,27 @@ In this project, the regression problem was reformulated into a classification t
 Low (< $150,000)
 Medium ($150,000–$300,000)
 High (> $300,000)
+
 The approach includes:
-Data cleaning and preprocessing (handling missing values, scaling, encoding)
-Feature engineering and transformation
-Training a Random Forest model
-Evaluating performance using RMSE and R^2
+Data cleaning and preprocessing,
+Feature engineering and transformation,
+Training a Random Forest model,
+Evaluating performance using RMSE and R^2.
 The model achieved reasonable predictive performance on the validation set, demonstrating that structured features can effectively capture housing price patterns.
 <img width="552" height="433" alt="image" src="https://github.com/user-attachments/assets/10604579-fa76-45a2-a512-961edc2b6187" />
 
 ### Summary of Work Done
 Data
 Type:
-Input - CSV file with housing features (numerical + categorical)
-Output - Categorical price class (0, 1, 2)
+Input - CSV file with housing features,
+Output - Categorical price class,
 Dataset - Kaggle House Prices dataset
 Size:
-Approximately 1460 training samples
+Approximately 1460 training samples,
 Approximately 80 features
 Split:
-70% Training
-15% Validation
+70% Training,
+15% Validation,
 15% Test
 
 ### Preprocessing / Cleanup
