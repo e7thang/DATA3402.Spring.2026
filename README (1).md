@@ -157,6 +157,11 @@ R^2 score,
 Validation set used for model assessment
 
 ### Data Visualization
+<img width="571" height="453" alt="image" src="https://github.com/user-attachments/assets/6a62b2db-5614-4d83-a19a-3d916bf75b3a" />
+
+<img width="571" height="453" alt="image" src="https://github.com/user-attachments/assets/b483b88a-dac0-42eb-938c-97643ea2ba22" />
+
+
 | Feature    | Before Scaling | After Scaling |
 |------------|---------------|--------------|
 | GrLivArea  | 2500          | 0.8          |
