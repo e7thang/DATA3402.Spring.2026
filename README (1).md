@@ -134,9 +134,9 @@ Required Libraries
 pandas,
 numpy,
 matplotlib,
-sklearn
+scikit-learn
 
-Install with - pip install pandas numpy matplotlib sklearn
+Install with - pip install pandas numpy matplotlib scikit-learn
 
 ### Data
 Source: Kaggle House Prices Competition
