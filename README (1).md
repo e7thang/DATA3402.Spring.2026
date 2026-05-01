@@ -28,11 +28,12 @@ Type:
 Input - CSV file with housing features,
 Output - Categorical price class,
 Dataset - Kaggle House Prices dataset
+
 Size:
 Approximately 1460 training samples,
 Approximately 80 features
-Split:
 
+Split:
 70% Training,
 15% Validation,
 15% Test
