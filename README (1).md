@@ -17,6 +17,7 @@ Feature engineering and transformation
 Training a Random Forest model
 Evaluating performance using RMSE and R^2
 The model achieved reasonable predictive performance on the validation set, demonstrating that structured features can effectively capture housing price patterns.
+<img width="552" height="433" alt="image" src="https://github.com/user-attachments/assets/10604579-fa76-45a2-a512-961edc2b6187" />
 
 ### Summary of Work Done
 Data
