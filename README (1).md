@@ -40,7 +40,7 @@ Split:
 Converted SalePrice into 3 classes:
 0 to Low,
 1 to Medium,
-2 to High,
+2 to High
 
 Handled missing values:
 Numerical to  median imputation,
