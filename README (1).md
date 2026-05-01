@@ -8,6 +8,7 @@ This project applies a Random Forest model to the Kaggle House Prices dataset by
 The task is based on the Kaggle House Prices dataset, where the goal is to predict housing prices using structured tabular features such as square footage, number of rooms, and property characteristics.
 
 In this project, the regression problem was reformulated into a classification task by grouping house prices into three categories:
+
 Low (< $150,000)
 Medium ($150,000–$300,000)
 High (> $300,000)
