@@ -14,15 +14,10 @@ Medium ($150,000–$300,000)
 High (> $300,000)
 
 The approach includes:
-
-Data cleaning and preprocessing
-
-Feature engineering and transformation
-
-Training a Random Forest model
-
-Evaluating performance using RMSE and R^2
-
+Data cleaning and preprocessing,
+Feature engineering and transformation,
+Training a Random Forest model,
+Evaluating performance using RMSE and R^2.
 The model achieved reasonable predictive performance on the validation set, demonstrating that structured features can effectively capture housing price patterns.
 <img width="552" height="433" alt="image" src="https://github.com/user-attachments/assets/10604579-fa76-45a2-a512-961edc2b6187" />
 
@@ -36,52 +31,64 @@ Size:
 Approximately 1460 training samples,
 Approximately 80 features
 Split:
+
 70% Training,
 15% Validation,
 15% Test
 
 ### Preprocessing / Cleanup
 Converted SalePrice into 3 classes:
-0 to Low
-1 to Medium
-2 to High
+0 to Low,
+1 to Medium,
+2 to High,
+
 Handled missing values:
-Numerical to  median imputation
+Numerical to  median imputation,
 Categorical to the most frequent value
+
 Feature scaling:
 StandardScaler applied to numerical features
+
 Encoding:
 One-hot encoding for categorical variables
+
 Removed unnecessary columns:
 ID column dropped
 
 ### Data Visualization
 Histogram of GrLivArea across price classes showed:
-Larger homes tend to fall into higher price classes
+Larger homes tend to fall into higher price classes,
 Before/after scaling plots confirmed normalization worked
+
 Key insight:
 The GrLivArea is strongly correlated with the price category
 
 ### Problem Formulation
 Input: Housing features
+
 Output: Price class
-Model Used
+
+Model Used:
 Random Forest Regressor 
-Why Random Forest
-Handles tabular data well
-Works with nonlinear relationships
-Robust to overfitting compared to single trees
-Metrics
-RMSE 
+
+Why Random Forest:
+Handles tabular data well,
+Works with nonlinear relationships,
+Robust to overfitting compared to single trees,
+
+Metrics:
+RMSE,
 R^2 Score
 
 ### Training
 Library: scikit-learn
 Environment: Jupyter Notebook
+
 Training steps:
-Train/validation/test split
-Model fit on training data
+Train/validation/test split,
+Model fit on training data,
 Evaluation on the validation set
+
 Stopping Criteria:
 Default Random Forest parameters 
 
@@ -89,42 +96,44 @@ Default Random Forest parameters
 To evaluate the model's effectiveness, we used two primary metrics: RMSE and R^2 Score. These metrics provide insight into how well the model predicts the housing price categories
 
 ### Conclusions
-Random Forest performed well on tabular housing data
-Feature preprocessing was essential
-Converting the regression to classification simplified the problem
+Random Forest performed well on tabular housing data, and the feature preprocessing was essential. Converting the regression to classification simplified the problem. 
 
 ### Future Work
-Try true classification models 
-Hyperparameter tuning
-Feature selection to reduce dimensionality
-Use original regression instead of binning prices
+Try true classification models, 
+Hyperparameter tuning,
+Feature selection to reduce dimensionality,
+Use original regression instead of binning prices,
 Try neural networks on tabular data
 
 ### How to Reproduce Results
-Download the dataset from Kaggle (House Prices competition)
+Download the dataset from Kaggle,
 Place train.csv and test.csv in the project directory
+
 Run notebook:
-Data preprocessing
-Model training
+Data preprocessing,
+Model training,
 Prediction generation
+
 Output:
 submission.csv for Kaggle
 
 ### Repository Structure
-Kaggle Tabular Data.ipynb
+Kaggle Tabular Data.ipynb,
 Main notebook with full pipeline
+
 Example structure:
-preprocessing 
-visualization 
-training 
-submission generation 
+preprocessing,
+visualization,
+training,
+submission generation
 
 ### Software Setup
 Required Libraries
-pandas
-numpy
-matplotlib
+pandas,
+numpy,
+matplotlib,
 sklearn
+
 Install with - pip install pandas numpy matplotlib sklearn
 
 ### Data
@@ -134,15 +143,15 @@ train.csv
 test.csv
 
 ### Training
-Run all notebook cells sequentially
-Data cleaning
-Feature engineering
+Run all notebook cells sequentially,
+Data cleaning,
+Feature engineering,
 Model training
 
 ### Performance Evaluation
-Evaluated using
-RMSE
-R^2 score
+Evaluated using - 
+RMSE,
+R^2 score,
 Validation set used for model assessment
 
 ### Data Visualization
