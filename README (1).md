@@ -140,7 +140,18 @@ Validation set used for model assessment
 
 ### Data Visualization
 <img width="571" height="453" alt="image" src="https://github.com/user-attachments/assets/bfe89826-ca3a-45c1-9132-4e55e0897432" />
+Before scaling
+| Feature    | Value |
+| ---------- | ----- |
+| GrLivArea  | 2500  |
+| GarageCars | 2     |
+
 <img width="571" height="453" alt="image" src="https://github.com/user-attachments/assets/3768316a-12de-4b7a-abe6-d2551b104403" />
+After scaling
+| Feature    | Value |
+| ---------- | ----- |
+| GrLivArea  | 0.8   |
+| GarageCars | 0.3   |
 
 | Dataset        | RMSE | R² Score |
 | -------------- | ---- | -------- |
