@@ -139,13 +139,13 @@ R^2 score
 Validation set used for model assessment
 
 ### Data Visualization
-Before scaling\n
-GrLivArea - 2500\n
-GarageCars - 2\n
+Before scaling:
+GrLivArea - 2500,
+GarageCars - 2
 
-After scaling\n
-GrLivArea - 0.8\n
-GarageCars - 0.3\n
+After scaling:
+GrLivArea - 0.8,
+GarageCars - 0.3
 
 | Dataset        | RMSE | R² Score |
 | -------------- | ---- | -------- |
